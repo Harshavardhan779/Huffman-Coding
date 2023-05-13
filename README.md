@@ -53,14 +53,8 @@ To implement Huffman coding to compress the data using Python.
 ## Output:
 
 ### Print the characters and its huffmancode
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-
+![OUTPUT](/12.png)
 
 ## Result
 Thus the huffman coding was implemented to compress the data using python programming.
