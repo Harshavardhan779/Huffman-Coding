@@ -24,8 +24,8 @@ Print the characters and its huffman code.
 
  
 ## Program:
-## DEVELOPED BY: HARSHA VARDHAN
-## REG NUMBER: 212222240114
+# DEVELOPED BY: HARSHA VARDHAN
+# REG NUMBER: 212222240114
 
 # Get the input String
 ```python
