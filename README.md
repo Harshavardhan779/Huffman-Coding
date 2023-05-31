@@ -27,7 +27,7 @@ Print the characters and its huffman code.
 ### DEVELOPED BY: HARSHA VARDHAN
 ### REG NUMBER: 212222240114
 
-# Get the input String
+### Get the input String
 ```python
 string ='Harsha vardhan 212222240114'
 class NodeTree(object):
@@ -38,7 +38,7 @@ class NodeTree(object):
         return (self.left,self.right)
     
 ```
-# Create tree nodes
+### Create tree nodes
 ```python
 
 def huffman_code_tree (node, left=True, binString=''):
@@ -50,7 +50,7 @@ def huffman_code_tree (node, left=True, binString=''):
     d.update(huffman_code_tree (r, False, binString + '1'))
     return d
 ```
-# Main function to implement huffman coding
+### Main function to implement huffman coding
 ```python
 
 freq = {}
@@ -62,7 +62,7 @@ for c in string:
 freq = sorted(freq.items(), key=lambda x: x[1], reverse=True)
 nodes=freq
 ```
-# Calculate frequency of occurrence
+### Calculate frequency of occurrence
 ```python
 
 while len(nodes)>1:
@@ -73,7 +73,7 @@ while len(nodes)>1:
     nodes.append((node,c1 + c2))
     nodes = sorted (nodes, key=lambda x: x[1], reverse=True)
 ```
-# Print the characters and its huffmancode
+### Print the characters and its huffmancode
 ```python
 
 huffmanCode=huffman_code_tree(nodes[0][0])
